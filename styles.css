@@ -49,7 +49,6 @@ ul{
     align-items: center;
 }
 
-
 .header__logo{
     width: 160px;
     height: 40px;
@@ -68,6 +67,29 @@ ul{
     margin: 0 20px;
 }
 
+.header__links img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.check-bttn{
+    cursor: pointer;
+    display: none;
+}
+
+.check-bttn img{
+    width: 50px;
+}
+
+@media screen and (max-width: 952px) {
+    .header__logo{
+        padding-left: 20px;
+    }
+
+    .header__links li a{
+        font-size: 16px;
+    }
+}
 
 .button-contact{
     border-radius: 50px;
@@ -88,11 +110,11 @@ ul{
 }
 
 .hero .hero__left{
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .hero__information{
-    font-size: 78px;
+    font-size: 100px;
     font-family: var(--font-hero);
     margin-bottom: 40px;
     width: 700px;
@@ -123,7 +145,6 @@ ul{
 
 .hero__data{
     display: flex;
-    width: 500px;
     gap: 50px;
     text-align: center;
 }
@@ -154,7 +175,7 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 600px;
+    width: 750px;
     text-align: center;
     gap: 30px;
 }
@@ -164,7 +185,7 @@ ul{
     border-radius: 10px;
     background-color: var(--backgorund-button-contact);
     white-space: wrap;
-    padding: 20px 10px 30px 10px;
+    padding: 30px 20px 30px 20px;
     transition: all 0.2s ease-in-out;
     color: #fff;
 }
@@ -192,7 +213,7 @@ ul{
     border: 1px solid var(--border-color-cards);
     border-color: var(--border-color-cards);
     white-space: wrap;
-    padding: 20px 10px 30px 10px;
+    padding: 30px 20px 30px 20px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -219,7 +240,7 @@ ul{
     border: 1px solid var(--border-color-cards);
     border-color: var(--border-color-cards);
     white-space: wrap;
-    padding: 20px 10px 30px 10px;
+    padding: 30px 20px 30px 20px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -246,7 +267,7 @@ ul{
     border: 1px solid var(--border-color-cards);
     border-color: var(--border-color-cards);
     white-space: wrap;
-    padding: 20px 10px 30px 10px;
+    padding: 30px 20px 30px 20px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -272,7 +293,7 @@ ul{
     flex-direction: row;
     flex-wrap: wrap;
     width: 550px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .provide__img2{
@@ -346,9 +367,10 @@ ul{
 
 .looking__button{
     border-radius: 50px;
-    width: 150px;
+    width: 170px;
     background-color: var(--backgorund-button-contact);
     white-space: nowrap;
+    align-items: center;
     padding: 20px 32px;
     transition: all 0.2s ease-in-out;
     color: #fff;
@@ -379,9 +401,16 @@ ul{
     gap: 60px;
 }
 
-.products__img1{
-    background-color: #E7EFF0;
-    border-radius: 250px 250px 20px 20px;
+.products__img1 img{
+    border-radius: 10px;
+}
+
+.products__img2 img{
+    border-radius: 10px;
+}
+
+.products__img3 img{
+    border-radius: 10px;
 }
 
 .builds{
@@ -398,7 +427,7 @@ ul{
 }
 
 .builds__information h1{
-    width: 450px;
+    width: 650px;
     font-family: var(--font-hero);
     font-size: 48px;
     font-weight: 200;
@@ -435,6 +464,7 @@ ul{
 .footer__links{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding-bottom: 40px;
 }
@@ -442,6 +472,7 @@ ul{
 .footer__menu{
     display: flex;
     justify-content: center;
+    text-align: center;
     width: 100%;
     padding: 2rem 0px;
     border-top: 1px solid #BDBFD1; 
