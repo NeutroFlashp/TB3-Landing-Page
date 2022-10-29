@@ -292,7 +292,7 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 550px;
+    width: 650px;
     gap: 20px;
 }
 
